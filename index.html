@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./assets/Frame 6.png" alt="">
+    </header>
+
+    <main class="corpo">
+        <section class="entrada">
+            <h2>Digite seu texto:</h2>
+            <textarea type="text" class="caixa__entrada" id="caixa__entrada"> </textarea>   
+            
+            <p class="legenda">Apenas letras minusculas e sem acento:</p>
+            <div class="botoes">
+                <a class="botoes__cript" onclick="codificar()">
+                    <img src="./assets/linkedin.png" alt="">
+                    Criptografar
+                </a>
+                <a class="botoes__descript" onclick="decodificar()">
+                    <img src="./assets/github.png" alt="">
+                    Descriptografar
+                </a>
+            </div>
+        </section>
+        
+        <section class="saida">
+            <img id="saida-img" src="assets/High quality products 1 1.svg" alt="">
+            <h2 id="saida-h2">Nenhuma mensagem encontrada</h2>
+            <p id="saida-p">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <textarea type="text" class="caixa__saida" id="caixa__saida" readonly> </textarea> 
+            <a onclick="copiarTexto()" id="botoes__copiar" class="botoes__copiar">Copiar</a>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido Por Tnbad
+            <a href="https://www.linkedin.com/in/thiago-nunes-barros/">Linkedin</a>
+            <a href="https://github.com/DevTnbad">GitHub</a>
+        </p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
