@@ -198,15 +198,15 @@ a {
         margin-left: 10px;
       }
     
-      .corpo {
+    .corpo {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
         height: 100vh;
-      }
+    }
     
-      .entrada {
+    .entrada {
         align-items: center;
         width: 100%;
         margin: 0;
@@ -224,7 +224,7 @@ a {
         padding: 10px;
         width: 90%;
         margin: 0;
-        height: 10%;
+        height: 25%;
       }
   
       .botoes {
@@ -234,7 +234,7 @@ a {
   
       .botoes__copiar {
           display: flex;
-          height: 30%;
+          height: 10%;
       }
   
       .caixa__saida {
