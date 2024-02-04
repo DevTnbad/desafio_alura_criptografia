@@ -214,10 +214,6 @@ a {
         height: 50%;
       }
     
-      .botao {
-        width: 45%;
-      }
-    
       .saida {
         display: flex;
         align-items: center;
